@@ -11,3 +11,12 @@ html {
     -webkit-text-size-adjust: 100%; 
     font-family: sans-serif;
 }
+
+img { 
+}
+
+.img-flex { 
+    width: 100%;
+    display: block; 
+}
+    

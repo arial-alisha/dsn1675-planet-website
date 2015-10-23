@@ -12,6 +12,14 @@ html {
     font-family: sans-serif;
 }
 
+header {
+    background-color: #C0C0C0;
+}
+
+h1 {
+    text-align: center;
+}
+
 img { 
 }
 
@@ -19,4 +27,16 @@ img {
     width: 100%;
     display: block; 
 }
+
+li { 
+    list-style: none;
+    text-decoration: none;
+}
     
+@media only screen and (min-width: 38em) {
+    
+li { 
+    display: block;
+}
+
+}

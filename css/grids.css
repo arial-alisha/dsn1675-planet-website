@@ -146,6 +146,10 @@
 
 @media only screen and (min-width: 38em) {
 
+li { 
+    display: inline-block;
+}
+
 .unit-m-hidden {
   display: none;
   visibility: hidden;

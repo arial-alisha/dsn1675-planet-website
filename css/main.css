@@ -20,8 +20,6 @@ h1 {
     text-align: center;
 }
 
-img { 
-}
 
 .img-flex { 
     width: 100%;
@@ -36,7 +34,7 @@ li {
 @media only screen and (min-width: 38em) {
     
 li { 
-    display: block;
+    display: inline-block;
 }
 
 }

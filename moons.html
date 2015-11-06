@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head> 
-	<link href="css/main.css" rel="stylesheet">
+    <link href="css/modules.css" rel= "stylesheet">
     <link href="css/grid.css" rel="stylesheet">
+    <link href="css/type.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+   
     <meta charset="utf-8">
     <title>Planet Website</title>
     <meta name="handheldfriendly" content="true">
@@ -12,63 +15,88 @@
 
 <main>
     
-<header>
-    
-<div class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-3">
-<h1>Venus </h1>
-</div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-3">
-
-    <ol>
-        <li> <a href="index.html">Planet</a></li>
-        <li> <a href="moons.html">Moons</a></li>
-        <li> <a href="exploration.html">Exploration</a></li>
-    </ol>
-
-</div>
-</div>
-    
+<header class="grid grid-middle section-dark masthead">
+    <div class="unit gutter xs-1 s-1 m-1-2 l-1-3">
+        <strong class="title peta push-0"><a href="index.html">Venus</a></strong>
+    </div>
+    <nav class="unit gutter-1-2 xs-1 s-1 m-2-3 l-2-3 pad-t-1-2 pad-b-1-2">
+        <ul class="nav giga push-0">
+            <li><a class="island-1-2" href="index.html">Planet</a></li>
+            <li><a class="island-1-2 current" href="moons.html">Moons</a></li>
+            <li><a class="island-1-2" href="exploration.html">Exploration</a></li>
+        </ul>
+    </nav>
 </header>
-
+ 
 <main>
+    <div class="section-mid text-center peta island-1-2 push">
+        <h1 class="push-0">Moons</h1>
+    </div>
     
-<h2>Moons</h2>
-  
-<div class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1-2">
+            <div class="grid">
+                <div class="unit push xs-1 s-1 m-1 l-1-2 gutter-1-2"> 
+                <img class="img-flex" src="images/venus-moon-1.jpg" alt="venus">  
+    </div>
     
-<div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1-2">
+    <div class="unit push xs-1 s-1 m-1 l-1-2 gutter-1-2">
+        <h2 class="giga">Venus's Fake Moon 1</h2>
+        <p class="push-0">This moon is amazing it looks like it’s habitable by humans.</p>
+    </div>
+    </div>
+    
+    <dl class="mega push-0 gutter-1-2">
+        <dt class="milli">Diameter (km)</dt>
+        <dd>22.2 km</dd>
+        <dt class="milli">Mass (kg)</dt>
+        <dd>2×10 15 km</dd>
+        <dt class="milli">Orbital period</dt>
+        <dd>30.35 h</dd>
+      </dl>
+
+    </div>
+    <div class="unit gutter xs-1 s-1 m-1-2 gutter-1-2">
+
+      <div class="grid">
+        <div class="unit push xs-1 s-1 m-1 l-1-2 gutter-1-2">
+          <img class="img-flex" src="images/venus-moon-2.jpg" alt="">
+        </div>
         
-        <img class="img-flex" src="images/venus-moon-1.jpg" alt="venus">  
-    </div>
-    
-    <div class="unit xs-1 s-1 m-1 l-1-2">
-        <h2>Venus's Fake Moon 1</h2>
-        <p>This moon is amazing it looks like it’s habitable by humans.</p>
+        <div class="unit push xs-1 s-1 m-1 l-1-2 gutter-1-2">
+          <h2 class="giga">Venus’s Fake Moon 2</h2>
+          <p class="push-0">Look at all the pretty colours of this moon—mustn’t be real-colour.</p>
         </div>
+      </div>
+            
+    <dl class="mega push-0 gutter-1-2">
+        <dt class="milli">Diameter (km)</dt>
+        <dd>12.6 km</dd>
+        <dt class="milli">Mass (kg)</dt>
+        <dd>10.8×10 15km</dd>
+        <dt class="milli">Orbital period</dt>
+        <dd>7.66 h</dd>
+    </dl>
+
     </div>
-        </div>
-   
-    
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    
-<div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1-2">
-        
-        <img class="img-flex" src="images/venus-moon-2.jpg" alt="venus">  
+  </div>
+
+  <div class="section-mid pad-t">
+    <h2 class="gutter">Discovery of Venus’s Moons</h2>
+
+    <div class="grid gutter-1-2">
+      <div class="unit xs-1 s-1 m-1 l-1-4 gutter-1-2 push">
+        <img class="img-flex" src="images/venus-phases.jpg" alt="Phases of Venus">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-4 gutter-1-2 unit-push-l-1-2">
+        <p class="mega">Venus is always brighter than the brightest stars outside our solar system.</p>
+      </div>
+      <div class="unit xs-1 s-1 m-2-3 l-1-2 gutter-1-2 unit-pull-l-1-4">
+        <p>Well Venus doesn’t actually have moons—unless we haven’t discovered them yet—so here’s some other details. Venus is always brighter than any star (apart from the Sun). The greatest luminosity, apparent magnitude −4.9, occurs during crescent phase when it is near Earth. Venus fades to about magnitude −3 when it is backlit by the Sun. The planet is bright enough to be seen in a mid-day clear sky, and it can be easy to see when the Sun is low on the horizon. As an inferior planet, it always lies within about 47° of the Sun.</p>
+      </div>
     </div>
-    
-    <div class="unit xs-1 s-1 m-1 l-1-2">
-        <h2>Venus's Fake Moon 2</h2>
-        <p>Look at all the pretty colours of this moon—mustn’t be real-colour.</p>
-        </div>
-    </div>
-        </div>
-       </div> 
-   
+  </div>
+      
 </main>
     
 </body>
